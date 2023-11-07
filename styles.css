@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  #description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  #chart {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    fill: #0077B6;
+  }
+  
+  /* Estilos para las leyendas */
+  #legend {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .legend-box {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Estilos para el tooltip */
+  #tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+  }
+  
+  #tooltip.active {
+    opacity: 0.9;
+  }
+  
+  /* Estilos para las pruebas de FreeCodeCamp */
+  #fcc_test_suite {
+    display: none;
+  }  
